@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <audio id="frogSound" src="frog-sound.mp3" preload="auto"></audio>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hart's | Portfolio</title>
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+<body>
+    <!-- Hopping Frog Back to Top Button -->
+    <div id="frog-top" class="frog-button" title="Hop to top!">
+        <img src="images/frog.png" alt="Frog button">
+    </div>
+
+    <header>
+        <div class="header-container">
+            <button id="theme-toggle" class="theme-btn" aria-label="Toggle dark mode">
+                <img src="images/Moon.jpg" alt="Light mode" class="light-icon">
+                <img src="images/Sun.jpg" alt="Dark mode" class="dark-icon">
+            </button>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section">
+            <div class="home-background">
+                <div class="pixel-gif"></div>
+            </div>
+            <div class="section-content">
+                <h1>Hart Fair Aposacas</h1>
+                <p class="intro">Hi, my name is Hart Fair T. Aposacas, and I am 21 years old. I am currently studying while exploring new opportunities. I am always looking to learn new things, meet new people, and grow both personally and professionally.</p>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="section-content">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <img src="images/Face2.jpg" alt="Your Name" class="profile-img">
+                    <div class="bio">
+                        <p>I am a 21-year-old student currently residing in San Isidro District, Tagbilaran City, Bohol. I am in my second year of pursuing a Bachelor of Science in Information Technology at Holy Name University. My academic journey has helped me build a solid foundation in various areas of IT, including programming, system analysis, and software development. I enjoy learning how technology can be used to create efficient solutions and improve everyday life.</p></p>
+                        <p>My interests include:</p>
+
+                            🎨 Digital Art – Creating visual designs and illustrations using digital tools and platforms.</p>
+                            
+                            🎮 Video Games – Playing and analyzing video games, with an interest in game development and design.</p>
+                            
+                            💻 Coding – Learning programming languages and building projects that improve my skills and solve real-world problems.</p>
+                        <p>I aim to develop strong technical skills and gain practical experience in the IT field to prepare for a future career in the industry. Hoping to make it.                        </p></p></p>
+                        <div style="text-align: center;">
+                            <img src="images/PENGU.gif" class="MISCimg" style="max-width: 1000px; height: auto;"></p>
+                        </div>
+                    </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="section-content">
+                <h2>Skills & Learning</h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Technical Skills</h3>
+                        <div class="skill-item">
+                            <span class="skill-name">HTML5</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 30%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 5%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 10%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Currently Learning</h3>
+                        <div class="learning-item">
+                            <h4>Advanced JavaScript</h4>
+                            <p>Exploring ES6+ features, async programming, and design patterns</p>
+                        </div>
+                        <div class="learning-item">
+                            <h4>Responsive Design</h4>
+                            <p>Mastering media queries and flexible layouts</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="section-content">
+                <h2>Contact Me</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+                <div class="social-links">
+                    <a href="https://github.com/hartuuu" target="_blank">GitHub</a>
+                    <a href="https://www.instagram.com/hart.oh?fbclid=IwY2xjawKI-JhleHRuA2FlbQIxMABicmlkETF4cjJXdWRmUE1OM1Nsc2pGAR4R-emk-3F8qu5rqI5gaNMcUjU0on2Hdk7s1SFcV4nCJoz7YhH7ogK1iVZq3A_aem_2CTUGEuJe0-EnksXOiyLpQ" target="_blank">Instagram</a>
+                    <a href="mailto:aposacas.hart_fair@hnu.edu.ph">Email</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> HART IS AWESOME. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
